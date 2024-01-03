@@ -3,7 +3,9 @@ import Link from "next/link";
 const Header = () => {
 	return (
 		<header className="p-6 bg-stone-900 text-stone-100 flex items-center justify-between">
-			<h2 className="text-2xl font-bold">Dashboard</h2>
+			<Link href={"/"}>
+				<h2 className="text-2xl font-bold">Dashboard</h2>
+			</Link>
 
 			<div className="flex items-center gap-5 font-medium">
 				<Link
