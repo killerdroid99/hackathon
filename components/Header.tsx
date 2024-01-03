@@ -15,7 +15,7 @@ const Header = () => {
 					Login
 				</Link>
 				<Link
-					href={"/login"}
+					href={"/register"}
 					className="rounded py-2 px-3 ring-inset ring-amber-500 ring-2 text-amber-500 hover:bg-amber-600 hover:text-inherit hover:ring-0 transition-all ease-in"
 				>
 					Register
